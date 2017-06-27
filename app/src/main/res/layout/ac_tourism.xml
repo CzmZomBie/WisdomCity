@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/page1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/homepage_1"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/page1_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="106dp"
+            android:src="@drawable/page1_text_w" />
+
+        <LinearLayout
+            android:id="@+id/page1_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="576dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/page1_text_b" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_msg1"
+                android:layout_marginTop="10dp"
+                android:text="秀美黔東南,吧啦河畔南花村"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/page2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/homepage_2"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/page2_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="106dp"
+            android:src="@drawable/page2_text_w" />
+
+        <LinearLayout
+            android:id="@+id/page2_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="576dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/page2_text_b" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_msg2"
+                android:layout_marginTop="10dp"
+                android:text="秀美黔東南,吧啦河畔南花村"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/page3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/homepage_3"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/page3_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="106dp"
+            android:src="@drawable/page3_text_w" />
+
+        <LinearLayout
+            android:id="@+id/page3_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="576dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/page3_text_b" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_msg3"
+                android:layout_marginTop="10dp"
+                android:text="秀美黔東南,吧啦河畔南花村"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/page4"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/homepage_4"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/page4_w"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="106dp"
+            android:src="@drawable/page4_text_w" />
+
+        <LinearLayout
+            android:id="@+id/page4_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="576dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/page4_text_b" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_msg4"
+                android:layout_marginTop="10dp"
+                android:text="秀美黔東南,吧啦河畔南花村"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

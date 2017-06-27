@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 顶层控件属性 -->
+    <declare-styleable name="MainUpView">
+        <attr name="upImageRes" format="reference" />
+        <attr name="shadowImageRes" format="reference" />
+    </declare-styleable>
+    <attr name="borderRadius" format="dimension" />
+
+    <attr name="xString" format="string" />
+    <attr name="inputType" format="string" />
+    <attr name="xtBackground" format="integer" />
+    <attr name="xtTextWidth" format="string" />
+    <attr name="xtTitle" format="string" />
+    <attr name="xtEnabled" format="boolean" />
+    <attr name="xtInputType" format="string" />
+    <attr name="xtTitleRight" format="string" />
+    <attr name="xtSrc" format="reference" />
+    <attr name="xtLeftVisibility" format="string" />
+    <attr name="xtSrcRight" format="reference" />
+    <attr name="xtHideIme" format="boolean" />
+    <attr name="xtContent" format="string" />
+    <attr name="xtEtBgNull" format="boolean" />
+
+    <declare-styleable name="xt">
+        <attr name="xtTitle" />
+        <attr name="xtEnabled" />
+        <attr name="xtInputType" />
+        <attr name="xtTitleRight" />
+        <attr name="xtSrc" />
+        <attr name="xtLeftVisibility" />
+        <attr name="xtSrcRight" />
+        <attr name="xtHideIme" />
+        <attr name="xtContent" />
+        <attr name="xtEtBgNull" />
+        <attr name="xtTextWidth" />
+        <attr name="xtOutTime" format="boolean" />
+    </declare-styleable>
+
+    <attr name="textwidth" format="integer"/>
+    <attr name="typeface">
+        <enum name="normal" value="0"/>
+        <enum name="sans" value="1"/>
+        <enum name="serif" value="2"/>
+        <enum name="monospace" value="3"/>
+    </attr>
+
+    <declare-styleable name="CYTextView">
+        <attr name="textwidth" />
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="reference|color"/>
+        <attr name="lineSpacingExtra" format="dimension"/>
+        <attr name="typeface" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nanhuavillagebg"
+    android:orientation="vertical">
+
+    <com.zhny.gr.wisdomcity.view.MainUpView
+        android:id="@+id/mainUpView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/nanhualogo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="666dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/time1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017.5.27(星期六)"
+                android:textColor="#2468ac"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="农历四月甘四"
+                android:textColor="#2468ac"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/time3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:00"
+            android:textColor="#2468ac"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/travel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="166dp"
+        android:background="@drawable/particulars_select"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nanhuatravel" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/dangjian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/travel"
+        android:layout_alignStart="@+id/travel"
+        android:layout_below="@+id/travel"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/particulars_select"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nanhuadangjian" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/xueliang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/dangjian"
+        android:layout_marginLeft="18dp"
+        android:layout_toEndOf="@+id/dangjian"
+        android:layout_toRightOf="@+id/dangjian"
+        android:background="@drawable/particulars_select"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nanhuaxueliang" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/nongmao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/travel"
+        android:layout_marginLeft="18dp"
+        android:layout_toEndOf="@+id/travel"
+        android:layout_toRightOf="@+id/travel"
+        android:background="@drawable/particulars_select"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nanhuanongmao" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/jiuye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nongmao"
+        android:layout_alignStart="@+id/nongmao"
+        android:layout_below="@+id/nongmao"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/particulars_select"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nanhuajiuye" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/sannong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jiuye"
+        android:layout_alignStart="@+id/jiuye"
+        android:layout_below="@+id/jiuye"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/particulars_select"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nanhuasannong" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/zhengwu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/nongmao"
+        android:layout_marginLeft="18dp"
+        android:layout_toEndOf="@+id/nongmao"
+        android:layout_toRightOf="@+id/nongmao"
+        android:background="@drawable/particulars_select"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nanhuazhengwu" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/banshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/zhengwu"
+        android:layout_marginLeft="18dp"
+        android:layout_toEndOf="@+id/zhengwu"
+        android:layout_toRightOf="@+id/zhengwu"
+        android:background="@drawable/particulars_select"
+        android:focusable="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/nanhuabanshi" />
+    </FrameLayout>
+
+</RelativeLayout>

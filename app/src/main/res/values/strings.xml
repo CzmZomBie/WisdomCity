@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">智慧城乡</string>
+
+    <!--天气相关-->
+    <string name="warning">天气预警</string>
+    <string name="air_quality">空气质量</string>
+    <string name="wind_direction">风向</string>
+    <string name="relative_humidity">相对湿度</string>
+
+    <!--功能相关-->
+    <string name="tea_garder_monitoring">茶园监控</string>
+    <string name="garder_monitoring">果园监控</string>
+    <string name="fishpond_monitoring">鱼塘监控</string>
+    <string name="shed_monitoring">大棚监控</string>
+    <string name="monitoring_crop">作物情况</string>
+    <string name="monitoring_humidity">土壤温湿度</string>
+    <string name="monitoring_illumination">光照强度</string>
+    <string name="monitoring_air">空气状况</string>
+    <string name="monitoring_pest">虫害预警</string>
+    <string name="monitoring_vidoe">实时监控</string>
+    <!--Tab Control-->
+    <string name="information_publish">农信发布系统</string>
+    <string name="mydata">数据管理</string>
+    <string name="environmental_monitoring">智能环境监控</string>
+    <string name="nongmao">农贸信息</string>
+    <string name="jiuye">劳动就业</string>
+    <string name="sanon">服务三农</string>
+
+    <!--时间-->
+    <string name="time_onday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="ednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="weekday">周日</string>
+    <string name="yesterday">昨天</string>
+    <string name="today">今天</string>
+    <string name="tomorrow">明天</string>
+
+    <!--提示相关-->
+    <string name="enter">确认</string>
+    <string name="select">选择</string>
+    <string name="back">返回</string>
+    <string name="cancel">取消</string>
+    <string name="load">Loading......</string>
+
+    <!--其他&Tips-->
+    <string name="more">更多</string>
+    <string name="notpaxc">您未安装雪亮工程项目</string>
+
+    <string name="shpinjiankong">视频监控</string>
+    <string name="jiankonghuikan">监控回看</string>
+    <string name="gerenzhongxin">个人中心</string>
+    <string name="fanhui_zhibo">返回直播</string>
+
+
+    <string name="leader_text">张磊，男，1961年10月生，江苏省连云港人，
+        1982年1月加入中国共产党，1982年8月参加工作，香港理工大学工商管理专业毕业，
+        在职研究生学历，工商管理博士，工程师。现(2015年)任广东省深圳市委副书记、
+        市长。1978.10-1982.07，北京理工大学光电工程系学生;1982.07-1984.09，兵器
+        工业部第五五九厂科研所工作;1987.07-1988.06，国家计委机关党委干部1988.06-1992.07，
+        国家计委工业二司、机电司电子处干部;1997.08-1998.08，国家计委机电司电子处处长;
+        1998.08-2001.02，国家计委高技术产业发展司信息产业处处长;2003.05-2005.07，
+        国家发展改革委高技术产业司副司长(2003.10 主持工作);2005.07-2008.04，国家发
+        展改革委高技术产业司司长;2008.04-2008.05，广东省深圳市委常委，国家发展改革
+        委高技术产业司司长;2010.05-2010.06，广东省深圳市委副书记、市政府常务副市长、
+        党组副书记;2010.06-，广东省深圳市委副书记，市长、市政府党组书记。</string>
+    <string name="particulars_text">
+             南花苗寨位于贵州凯里市三棵树镇，地处美丽的巴拉河畔。村寨依山而建，
+        吊脚楼层层叠叠，鳞次栉比，掩映在苍翠茂密的林木之中。以秀丽的自然风光
+        、浓郁的民族风情而闻名。南花村是一个依山傍水、民族风情浓郁的苗族村寨。
+        全村共四个村民小组，187户，824人，其中田300亩，土地150亩，人均耕地面积
+        为0.45亩，有林地面积2000亩，森林蓄积量为7000立方米，森林覆盖率达83.2%。
+        其定于哲理的曲艺嘎百福、娓娓悦耳的苗歌，内涵丰富的鼓社集会，别具情趣的
+        婚俗礼仪等典型的苗族文化特征，深深吸引了中外游客。先后接待了原国家副主
+        席曾庆红、原全国人大副委员长许家璐、铁木尔达瓦买提等党和国家领导人及联
+        合国世界旅游组织秘书长弗郎加利先生、尼泊尔共产党书记、外国驻中国10国使节、
+        非洲10个国家党政领导人等外国政要。南花村分别被中央、省、州、市授予
+        “全国先进党组织”、“先进文明村寨”、“国家农业部生态富民示范点”、
+        “全国农业旅游示范点”等称号。依山傍水的苗家吊脚楼、美丽大方的苗族少女、
+        悠扬的芦笙舞曲…南花苗寨的原生态苗族文化，让前来寻觅探幽的游客兴致盎然。
+        南花苗寨的女子多穿长裙，被称作"长裙苗"，最长的百褶裙长达80厘米。节日时
+        的牛角银饰是另一个特色，"大牛角"长达1米左右。因为交通方便，距离凯里比较
+        近，这里的旅游开发程度比较好，河边建起了木楼客栈，还建了许多茅草亭，村民
+        对此显得很漠然，一副事不关己又无可奈何的样子。寨门有座横跨巴拉河的风雨桥，
+        过桥，寨子就散布在河岸一侧的山坡上。寨子逛下来不需要花很长时间，微风吹起，
+        一边倚着苗家木楼观望青瓦旧屋，一边端杯苗家自酿的米酒细细品味，一份淡淡的悠闲，
+        如美酒般让人微醉
+    </string>
+</resources>

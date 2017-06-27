@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhny.gr.wisdomcity.view.MainUpView
+        android:id="@+id/mainUpView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/item1"
+            android:layout_width="0dp"
+            android:layout_height="470dp"
+            android:layout_weight="1"
+            android:background="@drawable/leader_bg"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/imageHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zhanglei" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="陈元峰（市长）"
+                android:textColor="@color/bule_wt"
+                android:textSize="@dimen/leader_name_textsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/leader_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/leader_referral_textsize" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/item2"
+            android:layout_width="0dp"
+            android:layout_height="470dp"
+            android:layout_weight="1"
+            android:background="@drawable/leader_bg"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chenyuanfeng" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张镇远（镇长）"
+                android:textColor="@color/bule_wt"
+                android:textSize="@dimen/leader_name_textsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/leader_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/leader_referral_textsize" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/item3"
+            android:layout_width="0dp"
+            android:layout_height="470dp"
+            android:layout_weight="1"
+            android:background="@drawable/leader_bg"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/zhangzhenyuan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="刘军（乡长）"
+                android:textColor="@color/bule_wt"
+                android:textSize="@dimen/leader_name_textsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/leader_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/leader_referral_textsize" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/item4"
+            android:layout_width="0dp"
+            android:layout_height="470dp"
+            android:layout_weight="1"
+            android:background="@drawable/leader_bg"
+            android:focusable="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/liujun" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张磊（省长）"
+                android:textColor="@color/bule_wt"
+                android:textSize="@dimen/leader_name_textsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/leader_text"
+                android:textColor="@color/black"
+                android:textSize="@dimen/leader_referral_textsize" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

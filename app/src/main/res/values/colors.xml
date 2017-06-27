@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="leimu">#8ed7f8</color>
+    <color name="leimu2">#78effa</color>
+    <color name="gray">#e7e7e7</color>
+    <color name="gray2">#e8e8e8</color>
+    <color name="c_eb6100">#ffeb6100</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#20000000</color>
+    <color name="bg_img_292929">#ff292929</color>
+    <color name="dlna_cancle">#ff49494b</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="xiaomai">#f7ca89</color>
+    <color name="top_tiao">#CBEAFF</color>
+    <color name="top_blue">#88C5F0</color>
+    <color name="dialog_camera">#60000000</color>
+    <color name="searchhint">#a53232</color>
+    <color name="green">#55bb00</color>
+    <color name="community_textColor">#4493cb</color>
+    <color name="dark_gray">#151515</color>
+    <color name="top_bar_color">#88C5F0</color>
+    <color name="bottom_bar_color">#E5E5E5</color>
+
+    <color name="lucency">#00000000</color>
+    <color name="red_toolbar">#db315a</color>
+    <color name="toumingse">#00000000</color>
+    <color name="grey_line">#aaaaaa</color>
+    <color name="blue_bar">#49bfd9</color>
+
+    <color name="orange_yellow">#ef8100</color>
+    <color name="black_gay">#b3b3b3</color>
+
+    <color name="bule_wt">#99437db7</color>
+
+    <color name="tourtable_layout">#60ffffff</color>
+    
+</resources>
